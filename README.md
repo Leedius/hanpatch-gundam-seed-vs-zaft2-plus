@@ -2,16 +2,31 @@
 
 PS2 『機動戦士ガンダムSEED DESTINY 連合 vs. Z.A.F.T. II PLUS』(SLPS-25718) 한국어 패치.
 
+**v0.5** · 2026-08-12
+
 **이 리포에는 패치 파일만 있습니다.** 게임 이미지는 들어 있지 않고, 앞으로도
 올라가지 않습니다. 본인이 가진 정품 디스크의 덤프에 씌워 쓰세요.
 
 ---
 
+## 화면
+
+| | |
+|---|---|
+| <img src="screenshots/01-main-menu.png" width="400"><br>메인 메뉴 | <img src="screenshots/03-plus-map.png" width="400"><br>P.L.U.S. 지도 |
+| <img src="screenshots/02-plus-mission.png" width="400"><br>P.L.U.S. 미션 선택 | <img src="screenshots/04-briefing.png" width="400"><br>브리핑 |
+| <img src="screenshots/05-vs-settings.png" width="400"><br>VS SETTINGS | <img src="screenshots/06-result.png" width="400"><br>결과 |
+
+스크린샷은 작업 도중 찍은 것이라 빌드가 조금씩 다릅니다. 파일럿 이름은 현재
+빌드에서 한글로 나옵니다.
+
+---
+
 ## 받는 것
 
-| 파일 | 크기 |
-|---|---|
-| `GundamSEEDDestiny_VS_ZAFTII_Plus_KR_fix83.xdelta` | 8,273,079 B |
+| 파일 | 크기 | SHA-256 |
+|---|---|---|
+| `GundamSEEDDestiny_VS_ZAFTII_Plus_KR_v0.5.xdelta` | 8,273,079 B | `1efc5bfb551ada7adb987bbbf1247e11532fc881faad456f606400d7600b8acd` |
 
 ## 씌울 대상 (일본판 원본 ISO)
 
@@ -28,15 +43,15 @@ PS2 『機動戦士ガンダムSEED DESTINY 連合 vs. Z.A.F.T. II PLUS』(SLPS-
 
 ### GUI — Delta Patcher (쉬움)
 
-1. [Delta Patcher](https://github.com/marcrobledo/RomPatcher.js) 또는
-   **Delta Patcher** (Marco Calautti) 를 받습니다.
+1. **Delta Patcher** (Marco Calautti) 또는 브라우저에서 도는
+   [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/) 를 엽니다.
 2. `Original file` 에 원본 ISO, `XDelta patch` 에 이 `.xdelta` 파일을 고릅니다.
 3. `Apply patch` 를 누릅니다.
 
 ### CLI — xdelta3
 
 ```
-xdelta3 -d -f -s "원본.iso" GundamSEEDDestiny_VS_ZAFTII_Plus_KR_fix83.xdelta "한글판.iso"
+xdelta3 -d -f -s "원본.iso" GundamSEEDDestiny_VS_ZAFTII_Plus_KR_v0.5.xdelta "한글판.iso"
 ```
 
 ## 씌운 뒤 확인
@@ -79,7 +94,7 @@ sha256sum "한글판.iso"                       # Linux / macOS
 
 ## 알려진 것
 
-- 이 빌드는 다듬기 단계의 중간 결과물입니다. 글자가 눌리거나 자리가 살짝 어긋난
+- v0.5 는 다듬기가 아직 남은 빌드입니다. 글자가 눌리거나 자리가 살짝 어긋난
   칸이 남아 있을 수 있어요.
 - 2P 결과 화면과 일부 콕핏 표시(차지 중 등)는 **실기로 직접 띄워 보지 못하고**
   텍스처 대조로만 확인했습니다.
