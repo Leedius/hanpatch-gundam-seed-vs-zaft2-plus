@@ -25,14 +25,13 @@ PS2 『機動戦士ガンダムSEED DESTINY 連合 vs. Z.A.F.T. II PLUS』(SLPS-
 
 ## 받는 것
 
-**[→ GundamSEEDDestiny_VS_ZAFTII_Plus_KR_v0.9.xdelta 받기](https://github.com/Leedius/hanpatch-gundam-seed-vs-zaft2-plus/raw/main/GundamSEEDDestiny_VS_ZAFTII_Plus_KR_v0.9.xdelta)**
+**[→ Releases 에서 받으세요](https://github.com/Leedius/hanpatch-gundam-seed-vs-zaft2-plus/releases/latest)**
 
 | 파일 | 크기 | SHA-256 |
 |---|---|---|
 | `GundamSEEDDestiny_VS_ZAFTII_Plus_KR_v0.9.xdelta` | 8,408,289 B | `c759ada3a71e09d804e8ad96ab4390678c6ceebbde06280d8463823d9aefa1e3` |
 
-받은 파일의 SHA-256 이 위와 같은지 확인하세요. [Releases](https://github.com/Leedius/hanpatch-gundam-seed-vs-zaft2-plus/releases)
-쪽에는 아직 v0.5 만 올라가 있습니다 — **v0.9 는 위 링크로 받으세요.**
+받은 파일의 SHA-256 이 위와 같은지 확인하세요.
 
 ## 씌울 대상 (일본판 원본 ISO)
 
